@@ -54,11 +54,12 @@ Start the server
 ![Screenshot 2024-06-08 122114](https://github.com/traptijindal/FillingFuture/assets/130233959/24fe22a2-5232-44cb-a546-51b5d8a327c1)
 
 
-## Other Pages
+## About Us Page
 ![Screenshot 2024-06-08 122210](https://github.com/traptijindal/FillingFuture/assets/130233959/8b3cf8cb-1e45-46d2-9ea3-7341178e4890)
 
 ![Screenshot 2024-06-08 122154](https://github.com/traptijindal/FillingFuture/assets/130233959/198fc942-6165-4656-a937-4ca172f4b1d1)
 
+## Other Pages
 ![Screenshot 2024-06-08 122408](https://github.com/traptijindal/FillingFuture/assets/130233959/44ecf53a-c107-4f17-b7fd-eafefef4ff32)
 
 ![Screenshot 2024-06-08 122419](https://github.com/traptijindal/FillingFuture/assets/130233959/bc9361e7-58a6-4a27-a956-a3209b813708)
