@@ -12,9 +12,10 @@ const Header = () => {
           </div>
       </div>
 
-      <div className=' md:w-[60%] lg:w-[50%]'>
-             <img src={child} alt="" className='w-full h-[180px] md:h-auto'/>
+      <div className=' md:w-[60%] lg:w-[50%] bg-gradient-to-r from-white to-black'>
+             <img src={child} alt="" className='w-full h-[180px] md:h-auto '/>
       </div>
+
     </div>
   )
 }

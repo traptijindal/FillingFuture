@@ -4,7 +4,7 @@ import donate from "/donate_1.png"
 const Donate_Monthly = () => {
   return (
     <div className='flex flex-col md:flex-row p-2'>
-      <div className='left w-full md:w-[60%]'>
+      <div className='left w-full md:w-[60%] bg-gradient-to-l from-white to-yellow-900'>
          <img src={donate} alt="" className='md:w-[570px] lg:w-[590px] mb-4'/>
       </div>
 
