@@ -38,23 +38,23 @@ const Navbar = () => {
               <div className='absolute top-full left-0 mt-2 w-48 shadow-lg rounded-md bg-white font-normal'>
                 <ul className='flex flex-col'>
                   <Link to='/donate-Once'>
-                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex'>
-                    <span className='mr-5 w-6 h-6'><FontAwesomeIcon icon={faCommentsDollar} /></span> Donate once
+                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row text-sm'>
+                    <span className='mr-5 w-6 '><FontAwesomeIcon icon={faCommentsDollar} /></span> Donate once
                   </li>
                   </Link>
                  <Link to='/donate-monthly'>
-                 <li className='p-2 hover:bg-gray-100 cursor-pointer flex'>
-                    <span className='mr-4 w-7 h-6'><WalletMinimal /></span>Donate monthly
+                 <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row text-sm'>
+                    <span className='mr-4 w-7 '><WalletMinimal /></span>Donate monthly
                   </li>
                 </Link>
                   <Link to='/subscription'>
-                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex'>
-                    <span className='mr-9 w-5 h-9'><FontAwesomeIcon icon={faS} /></span>Join spring
+                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row text-sm'>
+                    <span className='mr-6 w-5 '><FontAwesomeIcon icon={faS} /></span>Join spring
                   </li>
                   </Link>
                   <Link to='/sponsor'>
-                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex'>
-                    <span className='mr-7 w-5 h-6'><FontAwesomeIcon icon={faShieldHalved} /></span>Become a sponsor
+                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row text-sm'>
+                    <span className='mr-5 w-5'><FontAwesomeIcon icon={faShieldHalved} /></span>Become a sponsor
                   </li>
                   </Link>
                 </ul>
