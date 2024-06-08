@@ -1,6 +1,6 @@
 # Filling Future
 
-A platform where a community is trying to nourish our underprivileged across our nation.
+A platform where a community is trying to nourish underprivileged across our nation.
 
 
 
