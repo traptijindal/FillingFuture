@@ -24,15 +24,16 @@ const data_Work=[
 const WorkImg = () => {
   return (
     
-          <div className='flex flex-col md:flex-row justify-center items-center '>
+          <div className='flex flex-col md:flex-row justify-center items-center mb-5 md:mb-10'>
      {data_Work.map((items,index)=>{
         return(
-            <div key={index} className=' md:w-[30%] relative h-40'>
-                <img src={items.image} alt="" className=' h-24 md:h-56 '/>
-               <div className='absolute  flex flex-col justify-center items-center md:mx-20'>
-               <p className='text-sm text-center md:text-base '>{items.number}</p>
-                <p className='text-sm text-center md:text-base'>{items.desc}</p>
+            <div key={index} className=' md:w-[30%] relative h-60 md:h-40 mb-6'>
+                <div className='flex justify-center'>
+                <img src={items.image} alt="" className=' h-48 md:h-60 '/>
                 </div>
+               <p className='text-xl text-center md:text-2xl font-bold text-[#1D3C49]'>{items.number}</p>
+                <p className='text-base text-center md:text-xl'>{items.desc}</p>
+               
             </div>     
         )
       })}

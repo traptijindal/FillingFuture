@@ -14,22 +14,22 @@ const donate=[
 
 const DonateNow = () => {
   return (
-   <>
-    <h2 className='text-2xl md:text-3xl lg:text-4xl font-semibold text-[#1D3C49] mt-4 text-center md:text-start md:ml-40 underline underline-offset-8 decoration-4 decoration-[#FFA500]'>Donate Now</h2>
+   <div className='mb-10'>
+    <h2 className='text-3xl lg:text-4xl font-bold text-[#1D3C49] mt-4 text-center md:text-start  md:ml-40 underline underline-offset-8 decoration-8 decoration-[#FFA500] '>Donate Now</h2>
     <div className='flex flex-col items-center justify-center'>
-     <div className='flex flex-col md:flex-row items-center justify-center lg:gap-32'>
+     <div className='flex flex-col md:flex-row items-center justify-center '>
         {donate.map((item,index)=>{
            return(
-            <div key={index} className='h-[350px]'>
-                <img src={item.image} alt="" className='w-[290px] h-[270px] lg:w-[370px] lg:h-[290px] mt-20 '/>
-                <p className='text-center text-lg'>{item.text}</p>
+            <div key={index} >
+                <img src={item.image} alt="" className='w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] mt-20 '/>
+                <p className='text-center text-3xl font-bold text-[#1D3C49]'>{item.text}</p>
             </div>
            )
         })}
       
       </div>
     </div>
-   </>
+   </div>
   )
 }
 
