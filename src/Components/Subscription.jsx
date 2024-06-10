@@ -20,7 +20,7 @@ const Subscription = () => {
         </p>
         <p className='mb-2 md:mb-4 text-xs md:text-base'>Spring members are monthly donors committed to making an impact towards feeding people. They donate a fixed amount of 99 every single month.</p>
         <p className='mb-2 md:mb-4 text-xs font-bold md:text-base'>A 999 monthly donation can feed 2 people for 2 months.</p>
-        <Link to='/subscription'><button className='bg-[#FFA500] text-[#FFFFFF] text-base md:text-2xl  md:my-4 py-2 md:py-3 rounded-lg px-10 lg:px-20 w-full'>Join Spring</button></Link>
+        <Link to='/subscription'><button className='bg-[#FFA500] text-[#FFFFFF] font-bold text-sm md:text-xl md:my-4 py-2 md:py-3 rounded-lg px-10 md:px-24 w-full'>Join Spring</button></Link>
        
       </div>
     </div>
