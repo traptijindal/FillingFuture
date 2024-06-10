@@ -20,8 +20,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex flex-col w-full items-center'>
-      <div className='flex flex-row m-5 mx-9 w-[90%] justify-between items-center'>
+    <div className='flex flex-col w-full items-center  lg:ml-9 p-5'>
+      <div className='flex flex-row w-[90%] justify-between items-center'>
         <div className="left flex flex-row items-center space-x-4 md:space-x-9">
          <Link to='/'>
          <p className='text-lg md:text-3xl font-bold'>

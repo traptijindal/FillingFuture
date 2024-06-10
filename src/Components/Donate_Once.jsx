@@ -4,8 +4,9 @@ import donate_once from "/donate_once.png"
 const Donate_Once= () => {
   return (
     <div className='flex flex-col md:flex-row p-2'>
-      <div className='left w-full md:w-[60%] bg-gradient-to-l from-white to-yellow-900'>
-         <img src={donate_once} alt="" className='md:w-[570px] lg:w-[590px] mb-4'/>
+      <div className='left w-full md:w-[60%] relative '>
+        <img src={donate_once} alt="" className='md:w-[570px] lg:w-[650px] mb-4 relative z-10'/>
+         <div className='absolute inset-y-0 left-0 w-1/2 bg-gradient-to-l from-white to-yellow-900 z-0'></div>
       </div>
 
       <div className='right w-[350px] md:w-[300px] lg:w-[350px] m-5 '>

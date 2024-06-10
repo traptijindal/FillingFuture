@@ -3,7 +3,7 @@ import child from '../assets/images/child.png';
 
 const Header = () => {
   return (
-    <div className='flex flex-col-reverse md:flex-row  ml-10'>
+    <div className='flex flex-col-reverse md:flex-row ml-10 lg:ml-20'>
       <div className='w-full md:w-[40%] flex justify-center items-center mt-5'>
           <div className='px-2 lg:px-8 '>
                 <h1 className='flex flex-wrap text-[#1D3C49] font-bold mb-2 text-2xl lg:text-4xl'>Help  Us Nourish Our Nation</h1>
