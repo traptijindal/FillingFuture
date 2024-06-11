@@ -35,7 +35,7 @@ const Navbar = () => {
               {!arrow ? <ChevronDown /> : <ChevronUp />}
             </h2>
             {arrow && (
-              <div className='absolute top-full left-0 mt-2 w-48 shadow-lg rounded-md bg-white font-normal'>
+              <div className='absolute top-full left-0 mt-2 w-48 shadow-lg rounded-md bg-white font-normal z-50'>
                 <ul className='flex flex-col'>
                   <Link to='/donate-Once'>
                   <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row text-sm'>

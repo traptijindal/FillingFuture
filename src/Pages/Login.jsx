@@ -6,11 +6,11 @@ const Login = () => {
     <div className='flex items-center justify-center min-h-screen mt-10'>
       <div className='w-[350px] shadow-lg shadow-[rgb(136,134,134)]  p-6'>
         <h1 className='text-[#002844] font-bold text-2xl text-center mb-6'>Log in to <span className='text-[#FFA500]'>Filling</span>Future</h1>
-        <div className=' mb-4 flex items-center justify-center text-center'>
-          <button className='px-6 py-2 mr-9 bg-[#3A579D] text-white rounded-sm flex items-center justify-center'>
+        <div className=' mb-4 flex flex-row items-center justify-center text-center w-full'>
+          <button className='w-[40%] py-3 mr-7 bg-[#3A579D] text-white rounded-sm flex flex-row items-center justify-center'>
             <FaFacebookF className='mr-4' /> Log in 
           </button>
-          <button className='px-6 py-2 bg-[#4285F4] text-white rounded-sm flex items-center justify-center'>
+          <button className='w-[40%] py-3 bg-[#4285F4] text-white rounded-sm flex flex-row items-center justify-center'>
             <FaGoogle className='mr-4' /> Log in 
           </button>
         </div>
