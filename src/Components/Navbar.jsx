@@ -30,13 +30,13 @@ const Navbar = () => {
           </p>
          </Link>
           <div className='relative'>
-            <h2 className='text-[#2B5A6E] flex flex-row items-center cursor-pointer font-medium text-xs md:text-lg' onClick={handleDropdown}>
+            <h2 className='text-[#2B5A6E] flex flex-row items-center cursor-pointer font-medium text-sm md:text-lg' onClick={handleDropdown}>
               Donate
               {!arrow ? <ChevronDown /> : <ChevronUp />}
             </h2>
             {arrow && (
-              <div className='absolute top-full left-0 mt-2 w-48 shadow-lg rounded-md bg-white font-normal z-50 '>
-                <ul className='flex flex-col ml-2'>
+              <div className='absolute top-full left-0 mt-2 w-40 md:w-48 shadow-lg rounded-md bg-white font-normal z-50 '>
+                <ul className='flex flex-col md:ml-2 box-border'>
                   <Link to='/donate-Once'>
                   <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row items-center text-left text-sm'>
                     <span className='mr-5 w-6 '><FontAwesomeIcon icon={faCommentsDollar} /></span> Donate once
