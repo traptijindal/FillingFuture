@@ -5,7 +5,7 @@ const FoodResponsive= () => {
   return (
     <div className='flex flex-col-reverse md:flex-row mt-6 md:mt-20 items-center md:items-center justify-end '>
 
-      <div className="left w-[90%] md:w-[30%] text-base  mx-4 md:px-14 px-4 flex flex-col items-center justify-center rounded-xl shadow-lg shadow-[rgb(136,134,134)]">    
+      <div className="left w-[90%] md:w-[30%] text-base  mx-4 md:px-14 px-4 py-4 flex flex-col items-center justify-center rounded-xl shadow-md shadow-[rgb(136,134,134)]">    
          <h1 className='text-xl font-bold mb-2 text-center text-[#1D3C49]'>Food Project Sponsorship</h1>
          <p className='text-base mb-8'>By sponsoring a project, you can provide hygienic food for a community, school, or health clinic. 100% of your donation will fund hygienic food.</p>
          <input type="number " placeholder='Enter amount' className='mb-8 border border-b-slate-300 p-2'/>

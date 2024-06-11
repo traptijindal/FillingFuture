@@ -30,30 +30,30 @@ const Navbar = () => {
           </p>
          </Link>
           <div className='relative'>
-            <h2 className='text-[#2B5A6E] flex flex-row cursor-pointer font-medium' onClick={handleDropdown}>
+            <h2 className='text-[#2B5A6E] flex flex-row items-center cursor-pointer font-medium text-xs md:text-lg' onClick={handleDropdown}>
               Donate
               {!arrow ? <ChevronDown /> : <ChevronUp />}
             </h2>
             {arrow && (
-              <div className='absolute top-full left-0 mt-2 w-48 shadow-lg rounded-md bg-white font-normal z-50'>
-                <ul className='flex flex-col'>
+              <div className='absolute top-full left-0 mt-2 w-48 shadow-lg rounded-md bg-white font-normal z-50 '>
+                <ul className='flex flex-col ml-2'>
                   <Link to='/donate-Once'>
-                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row text-sm'>
+                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row items-center text-left text-sm'>
                     <span className='mr-5 w-6 '><FontAwesomeIcon icon={faCommentsDollar} /></span> Donate once
                   </li>
                   </Link>
                  <Link to='/donate-monthly'>
-                 <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row text-sm'>
+                 <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row items-center text-left text-sm'>
                     <span className='mr-4 w-7 '><WalletMinimal /></span>Donate monthly
                   </li>
                 </Link>
                   <Link to='/subscription'>
-                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row text-sm'>
-                    <span className='mr-6 w-5 '><FontAwesomeIcon icon={faS} /></span>Join spring
+                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row items-center text-left text-sm'>
+                    <span className='mr-6 w-5'><FontAwesomeIcon icon={faS} /></span>Join spring
                   </li>
                   </Link>
                   <Link to='/sponsor'>
-                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row text-sm'>
+                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row items-center text-left text-sm'>
                     <span className='mr-5 w-5'><FontAwesomeIcon icon={faShieldHalved} /></span>Become a sponsor
                   </li>
                   </Link>

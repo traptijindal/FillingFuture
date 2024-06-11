@@ -24,8 +24,8 @@ import springHeader from '/springHeader.png'
 const SpringHeader = () => {
   return (
     <div className='relative mb-52 lg:mb-20'>
-      <img src={springHeader} alt="Spring Header" className='w-full md:w-[80%] lg:w-[60%] h-[200px] md:h-[300px] lg:h-[400px] mx-auto object-cover'/>
-      <div className='absolute inset-0 flex items-center justify-center mt-[250px] md:mt-[200px]'>
+      <img src={springHeader} alt="Spring Header" className='w-full md:w-[80%] lg:w-[80%] h-[200px] md:h-[300px] lg:h-[450px] mx-auto object-cover'/>
+      <div className='absolute inset-0 flex items-center justify-center mt-[250px]'>
         <div className='bg-white p-5 rounded-3xl shadow-lg shadow-[rgb(136,134,134)] w-[90%] sm:w-[80%] md:w-[60%] lg:w-[50%] text-center'>
           <h1 className='text-[#1D3C49] font-bold text-sm md:text-lg lg:text-xl mb-4'>Give people clean and safe food every month</h1>
           <hr className='border-b-2 border-[#FFA500] w-[25%] mx-auto mb-4'/>
