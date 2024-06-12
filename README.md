@@ -39,27 +39,38 @@ Start the server
   npm run dev
 ```
 
-
+## Glimpses of Pages
 ## Landing Page
 
-![Screenshot 2024-06-08 120423](https://github.com/traptijindal/FillingFuture/assets/130233959/f3834fca-2ce0-4628-b154-fd4b7e0e457d)
+![Screenshot 2024-06-12 201445](https://github.com/traptijindal/FillingFuture/assets/130233959/6f8618fb-86ab-47c2-bfea-1e359f744e82)
 
 
-![Screenshot 2024-06-08 120442](https://github.com/traptijindal/FillingFuture/assets/130233959/fb9f673c-0a40-4203-9918-8355524bbaa0)
+![Screenshot 2024-06-12 201458](https://github.com/traptijindal/FillingFuture/assets/130233959/2d9f0009-6982-4f93-8979-ad0503f2a89c)
 
 
-![Screenshot 2024-06-08 121943](https://github.com/traptijindal/FillingFuture/assets/130233959/8d5842b9-5e06-4d76-82c7-6f93d54bd707)
+![Screenshot 2024-06-12 201516](https://github.com/traptijindal/FillingFuture/assets/130233959/fe4502e1-b3b7-4bb5-aaee-f7628472ab1f)
+
+
+
 
 ## Donate Page
-![Screenshot 2024-06-08 122114](https://github.com/traptijindal/FillingFuture/assets/130233959/24fe22a2-5232-44cb-a546-51b5d8a327c1)
+
+![Screenshot 2024-06-12 201625](https://github.com/traptijindal/FillingFuture/assets/130233959/22f31e2b-118f-4b77-ac77-a36dc72dbb30)
+
+![Screenshot 2024-06-12 201855](https://github.com/traptijindal/FillingFuture/assets/130233959/a818f48d-bacf-4533-9458-902a3c5b6036)
+
 
 
 ## About Us Page
-![Screenshot 2024-06-08 122210](https://github.com/traptijindal/FillingFuture/assets/130233959/8b3cf8cb-1e45-46d2-9ea3-7341178e4890)
 
-![Screenshot 2024-06-08 122154](https://github.com/traptijindal/FillingFuture/assets/130233959/198fc942-6165-4656-a937-4ca172f4b1d1)
+![Screenshot 2024-06-12 201944](https://github.com/traptijindal/FillingFuture/assets/130233959/4683bfc4-f301-4188-9da1-49708c820d88)
+
+![Screenshot 2024-06-12 201959](https://github.com/traptijindal/FillingFuture/assets/130233959/391a1c56-02b5-4403-bf65-89885a65c1d4)
+
 
 ## Other Pages
-![Screenshot 2024-06-08 122408](https://github.com/traptijindal/FillingFuture/assets/130233959/44ecf53a-c107-4f17-b7fd-eafefef4ff32)
+![Screenshot 2024-06-12 201653](https://github.com/traptijindal/FillingFuture/assets/130233959/997e6c6b-ed02-46b4-b8e5-bbaee7499ebc)
 
-![Screenshot 2024-06-08 122419](https://github.com/traptijindal/FillingFuture/assets/130233959/bc9361e7-58a6-4a27-a956-a3209b813708)
+![Screenshot 2024-06-12 201708](https://github.com/traptijindal/FillingFuture/assets/130233959/02f1bce7-471f-4b85-a2da-eae18c746779)
+
+![Screenshot 2024-06-12 201556](https://github.com/traptijindal/FillingFuture/assets/130233959/68be55a1-f1d5-4489-8896-0ceec9f4c31a)
