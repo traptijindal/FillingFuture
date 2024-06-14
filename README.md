@@ -39,27 +39,27 @@ Start the server
   npm run dev
 ```
 
-
 ## Landing Page
 
-![Screenshot 2024-06-08 120423](https://github.com/traptijindal/FillingFuture/assets/130233959/f3834fca-2ce0-4628-b154-fd4b7e0e457d)
+
+![home page](https://github.com/traptijindal/FillingFuture/assets/130233959/700dc8fd-04a2-4e21-bf01-a7da2fdcaaf2)
 
 
-![Screenshot 2024-06-08 120442](https://github.com/traptijindal/FillingFuture/assets/130233959/fb9f673c-0a40-4203-9918-8355524bbaa0)
+## Donate Monthly Page
 
+![donate monthly](https://github.com/traptijindal/FillingFuture/assets/130233959/9a3eed04-97d2-45d6-9484-e18e98ad5cff)
 
-![Screenshot 2024-06-08 121943](https://github.com/traptijindal/FillingFuture/assets/130233959/8d5842b9-5e06-4d76-82c7-6f93d54bd707)
+## Donate Once Page
 
-## Donate Page
-![Screenshot 2024-06-08 122114](https://github.com/traptijindal/FillingFuture/assets/130233959/24fe22a2-5232-44cb-a546-51b5d8a327c1)
-
+![donate once](https://github.com/traptijindal/FillingFuture/assets/130233959/1ed05a49-e970-411a-8746-59fc7c1d5a0b)
 
 ## About Us Page
-![Screenshot 2024-06-08 122210](https://github.com/traptijindal/FillingFuture/assets/130233959/8b3cf8cb-1e45-46d2-9ea3-7341178e4890)
+![about](https://github.com/traptijindal/FillingFuture/assets/130233959/61f5c061-c5c8-40f7-89c6-320b1443ed92)
 
-![Screenshot 2024-06-08 122154](https://github.com/traptijindal/FillingFuture/assets/130233959/198fc942-6165-4656-a937-4ca172f4b1d1)
+## Spring Page
 
-## Other Pages
-![Screenshot 2024-06-08 122408](https://github.com/traptijindal/FillingFuture/assets/130233959/44ecf53a-c107-4f17-b7fd-eafefef4ff32)
+![subscription](https://github.com/traptijindal/FillingFuture/assets/130233959/66f382ca-949f-49c5-a237-9c320029f554)
 
-![Screenshot 2024-06-08 122419](https://github.com/traptijindal/FillingFuture/assets/130233959/bc9361e7-58a6-4a27-a956-a3209b813708)
+## Sponsor Page
+
+![sponsor](https://github.com/traptijindal/FillingFuture/assets/130233959/4721cf97-55be-442a-9024-6ca68e5d7d8a)
