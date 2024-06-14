@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex flex-col w-full items-center  lg:ml-9 p-5'>
+    <div className='flex flex-col w-full items-center  lg:ml-9 p-5 '>
       <div className='flex flex-row w-[90%] justify-between items-center'>
         <div className="left flex flex-row items-center space-x-4 md:space-x-9">
          <Link to='/'>
@@ -62,7 +62,7 @@ const Navbar = () => {
             )}
           </div>
         </div>
-        <div className="lg:hidden">
+        <div className="md:hidden">
           <button onClick={toggleMenu}>
            {!menuOpen? <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M4 6h16M4 12h16M4 18h16'></path>
@@ -72,20 +72,20 @@ const Navbar = () => {
           }
           </button>
         </div>
-        <div className="hidden lg:flex right text-[#2B5A6E] font-medium">
-          <ul className='flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-8'>
+        <div className="hidden md:flex right text-[#2B5A6E] font-medium">
+          <ul className='flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8'>
             <Link to='/about'> <li className='text-xs md:text-lg'>About Us</li></Link>
             <Link to='/login'> <li className='text-xs md:text-lg'>Login</li></Link>
           </ul>
         </div>
       </div>
       {menuOpen && (
-        <div className="flex flex-row w-full items-center justify-center lg:hidden">
+        <div className="flex flex-row w-full  items-center  md:hidden absolute z-50 right-0  top-[4rem] bg-[white] p-4">
         
-          <div className="text-[#2B5A6E] font-medium ">
-            <ul className='flex flex-col space-y-2 '>
-              <Link to='/about'><li className='text-xs md:text-lg'>About Us</li></Link>
-              <Link to='/login'><li className='text-xs md:text-lg'>Login</li></Link>
+          <div className="text-[#2B5A6E] font-medium ml-5">
+            <ul className='flex flex-col space-y-4  '>
+              <Link to='/about'><li className='text-sm md:text-lg'>About Us</li></Link>
+              <Link to='/login'><li className='text-sm md:text-lg'>Login</li></Link>
             </ul>
           </div>
           <div>
