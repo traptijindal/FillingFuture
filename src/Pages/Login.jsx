@@ -31,7 +31,7 @@ const Login = () => {
         Login with email
        </button>
         <p className='text-center text-[#3387ED] text-sm mb-8'>Forgot your password?</p>
-        <p className='text-center text-[#3387ED] text-sm'>You don’t have an account?</p>
+        <Link to ="/signup"><p className='text-center text-[#3387ED] text-sm'>You don’t have an account?</p></Link>
       </div>
     </div>
   )

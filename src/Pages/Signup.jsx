@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaGoogle } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Signup = () => {
   return (
@@ -24,7 +25,7 @@ const Signup = () => {
           <FaGoogle className='mr-4' /> Sign up with Google
        </button>
         <p className='text-center text-[#737F86] text-xs mb-8'>Our <span className='underline'>Terms of Service</span> apply. For more info on our data processing, see our <span className='underline'>Privacy Policy</span></p>
-        <p className='text-center text-[#3387ED] text-sm'>Already have an account?</p>
+       <Link to ="/login"> <p className='text-center text-[#3387ED] text-sm'>Already have an account?</p></Link>
       </div>
     </div>
   )
