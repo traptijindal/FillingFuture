@@ -14,7 +14,7 @@ const Login = () => {
             <FaGoogle className='mr-4' /> Log in 
           </button>
         </div>
-        <button className='w-[95%] mb-4  px-6 py-2 border border-black text-[#002844] rounded-lg flex items-center justify-center mx-auto'>
+        <button className='w-[95%] mb-4  px-6 py-2 border border-black text-[#002844] rounded-lg flex flex-row items-center justify-center mx-auto'>
           <FaApple className='mr-2' /> Continue with Apple
         </button>
         <button className='w-[95%] px-6 py-2 bg-[#03314B] text-white rounded-lg flex items-center justify-center mx-auto'>
@@ -25,8 +25,8 @@ const Login = () => {
         <p className='px-4'>or</p>
         <hr className='w-[39%] border-t-2 border-[#BAC8CE]' />
       </div>
-      <input type="text" placeholder="Email"    className=' pr-10 md:pr-20 pl-5 py-2 ml-2 border border-[#BAC8CE] rounded-sm my-4 text-start'/>
-      <input type="text" placeholder="Password" className='pr-10 md:pr-20 pl-5 py-2 ml-2 border border-[#BAC8CE] rounded-sm text-start'/>
+      <input type="text" placeholder="Email"    className=' pr-5 md:pr-20 pl-5 py-2 ml-2 border border-[#BAC8CE] rounded-sm my-4 text-start'/>
+      <input type="text" placeholder="Password" className='pr-5 md:pr-20 pl-5 py-2 ml-2 border border-[#BAC8CE] rounded-sm text-start'/>
       <button className='w-[95%] px-6 py-2  bg-[#FFA500] text-white rounded-lg flex items-center justify-center mx-auto my-4'>
         Login with email
        </button>
