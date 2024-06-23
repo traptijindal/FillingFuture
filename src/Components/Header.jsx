@@ -14,7 +14,7 @@ const Header = () => {
       </div>
 
       <div className='w-full md:w-[70%] relative flex '>
-             <img src={child} alt="" className='w-full h-[160px] md:h-[300px] lg:h-[400px] relative z-10'/>
+             <img src={child} alt="" className='w-full h-[180px] md:h-[290px] lg:h-[380px] relative z-10'/>
              <div className='absolute inset-y-0 right-0 w-1/2 bg-gradient-to-r from-transparent to-black z-0'></div>
       </div>
 
