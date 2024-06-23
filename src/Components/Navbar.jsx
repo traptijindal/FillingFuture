@@ -37,22 +37,22 @@ const Navbar = () => {
             {arrow && (
               <div className='absolute top-full left-0 mt-2 w-40 md:w-48 shadow-lg rounded-md bg-white font-normal z-50 '>
                 <ul className='flex flex-col md:ml-2 box-border'>
-                  <Link to='/donate-Once'>
+                  <Link to='/donate-Once' onClick={handleDropdown}>
                   <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row items-center text-left text-sm'>
                     <span className='mr-5 w-6 '><FontAwesomeIcon icon={faCommentsDollar} /></span> Donate once
                   </li>
                   </Link>
-                 <Link to='/donate-monthly'>
+                 <Link to='/donate-monthly'onClick={handleDropdown}>
                  <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row items-center text-left text-sm'>
                     <span className='mr-4 w-7 '><WalletMinimal /></span>Donate monthly
                   </li>
                 </Link>
-                  <Link to='/subscription'>
+                  <Link to='/subscription'onClick={handleDropdown}>
                   <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row items-center text-left text-sm'>
                     <span className='mr-6 w-5'><FontAwesomeIcon icon={faS} /></span>Join spring
                   </li>
                   </Link>
-                  <Link to='/sponsor'>
+                  <Link to='/sponsor'onClick={handleDropdown}>
                   <li className='p-2 hover:bg-gray-100 cursor-pointer flex flex-row items-center text-left text-sm'>
                     <span className='mr-5 w-5'><FontAwesomeIcon icon={faShieldHalved} /></span>Become a sponsor
                   </li>
