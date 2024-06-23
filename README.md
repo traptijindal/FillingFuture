@@ -53,8 +53,8 @@ Start the server
 
 ![donate once](https://github.com/traptijindal/FillingFuture/assets/130233959/1ed05a49-e970-411a-8746-59fc7c1d5a0b)
 
-## About Us Page
-![about](https://github.com/traptijindal/FillingFuture/assets/130233959/61f5c061-c5c8-40f7-89c6-320b1443ed92)
+
+
 
 ## Spring Page
 
