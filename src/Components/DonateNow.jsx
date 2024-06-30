@@ -1,14 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const donate=[
     {
         image:"/Ellipse 1.png",
         text:"Once",
+        path:"/donate-Once",
     },
     {
         image:"/donate1.png",
         text:"Monthly",
+        path:"/donate-monthly",
     }
 ]
 
@@ -20,10 +23,15 @@ const DonateNow = () => {
      <div className='flex flex-col md:flex-row items-center justify-center '>
         {donate.map((item,index)=>{
            return(
+          
             <div key={index} >
+                <Link to={item.path} >
                 <img src={item.image} alt="" className='w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] mt-20 '/>
                 <p className='text-center text-3xl font-bold text-[#1D3C49]'>{item.text}</p>
+                </Link>
             </div>
+          
+           
            )
         })}
       
